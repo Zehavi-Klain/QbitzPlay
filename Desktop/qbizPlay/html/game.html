@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QbitzPlay</title>
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body onload="StartPlay()">
+</div>
+   <div id="container">
+  <div class="all"  id="timerAndPach">
+    <div  id="timerCss">
+    <div id="timer"></div>
+  </div class="all"  id="pointsBig" >
+  <div id="pointsDiv">your points:
+      <div id="points">0</div>
+  </div>
+  <div id="theBest2" >מצב השיאים שלך הוא:</div>
+<div id="theBest">              </div>
+    <div id="life">        
+    <img class="smili" id="smili1" src="../images/לב.gif" alt="">
+    <img class="smili" id="smili2"  src="../images/לב.gif" alt="">
+    <img class="smili" id="smili3"  src="../images/לב.gif" alt="">
+  </div>
+  </div>
+    <div id="tableContainer">
+        <table id="table">
+                    <tr>
+        <td id="dropCell1" ondrop="drop(event)" ondragover="allowDrop(event)"  ondragstart="drag(event)"></td>
+        <td id="dropCell2" ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)"></td>  
+         <td id="dropCell3" ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)"></td> 
+           <td id="dropCell4" ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)"></td>
+    </tr>
+    <tr>
+        <td id="dropCell5" ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)"></td>
+        <td id="dropCell6" ondrop="drop(event)" ondragover="allowDrop(event)"  ondragstart="drag(event)"></td>  
+         <td id="dropCell7" ondrop="drop(event)" ondragover="allowDrop(event)"  ondragstart="drag(event)"></td> 
+           <td id="dropCell8" ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)"></td>
+    </tr> 
+     <tr>
+        <td id="dropCell9" ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)"></td>
+        <td id="dropCell10" ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)"></td>  
+         <td id="dropCell11" ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)"></td> 
+           <td id="dropCell12" ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)"></td>
+    </tr>
+    <tr>
+        <td id="dropCell13" ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)"></td>
+        <td id="dropCell14" ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)"></td>  
+         <td id="dropCell15" ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)"></td> 
+      <td id="dropCell16" ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)"></td> 
+    </tr>
+</table>
+<div  id="pach">
+<img src="../images/FX13_trashcan.png" alt="" id="trashcan" ondragover="allowDropTrashcan(event)" ondrop="dropRemove(event)">
+</div>
+<button onclick="Winner()" id="btnWin">Qbitz</button>
+<div id="dragContainer">
+    <img src="../images/1.png" alt="" id="1" >
+    <img src="../images/2.png" alt="" id="2" >
+    <img src="../images/3.png" alt="" id="3" >
+    <img src="../images/4.png" alt="" id="4" >
+    <img src="../images/5.png" alt="" id="5" ondblclick="Around5(this.id)">
+
+</div>
+<div id="rotate">🔄</div>
+</div>
+<div id="cardContainer" class="card-container"> 
+    <img id="imageDisplay" src="" alt="תמונה" style=" display: none;">
+</div>
+<script src="../js/levels.js"></script>
+    <script src="../js/game.js"></script>
+</div>
+</body>
+</html>
+

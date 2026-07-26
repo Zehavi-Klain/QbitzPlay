@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    color: red;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-image: url('../images/אבנים\ מושלםםםםםם.png');
+    background-size: 100%;
+}
+
+#select {
+    /* margin-top:25%; */
+    max-width: 80%;
+    margin: 5% auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+select,
+button,
+a,
+h1 {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background-color: red;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+select:hover,
+button:hover,
+a:hover,
+h1:hover {
+    background-color: black;
+    color: red;
+}
+
+button {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#GameInstructions {
+
+    /* margin-top: 5%; */
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 500px;
+    border-radius: 10px;
+    border: 3px solid #123456;
+    text-align: center;
+    color: cornsilk;
+    font-size: x-large;
+    font-weight: 550;
+    padding: 40px;
+    font-family: f1;
+    font-weight: bolder;
+
+    font-size: 25px;
+}
+
+#GameInstructions p {
+    margin-top: 45px;
+}
+
+#GameInstructions {
+    border-radius: 10px;
+    border: 1px solid #cf6209;
+    /* Light blue border */
+    color: #ae1616;
+    /* White text */
+    box-shadow: 0 0 8px rgba(243, 234, 102, 0.7),
+        /* Outer cyan glow */
+        0 0 15px rgba(0, 255, 255, 0.5),
+        /* More diffuse outer glow */
+        inset 0 0 5px red;
+    /* Subtle inner glow for depth */
+    position: relative;
+    /* Enable relative positioning */
+}
+
+@font-face {
+    font-family: f1;
+    src: url(../images/FbAvukado-Regular_0.otf);
+}

@@ -1,0 +1,30 @@
+body{
+    background-image: url("../images/אבנים\ מושלםםםםםם.png");
+    background-size: 100%;
+}
+
+#GameInstructions
+{    
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    height:590px;
+    border-radius: 10px;
+    border: 3px solid #123456; 
+    text-align: center;
+    color:cornsilk;
+    font-size: x-large;
+    font-weight: 550;
+    padding: 40px;
+}
+#GameInstructions p{
+   margin-top: 45px;
+}
+div{
+    border-radius: 10px;
+    border: 1px solid #58cf09; /* Light blue border */
+    color: #ae1616; /* White text */
+    box-shadow: 0 0 8px rgba(243, 234, 102, 0.7), /* Outer cyan glow */ 0 0 15px rgba(0, 255, 255, 0.5), 
+    /* More diffuse outer glow */ inset 0 0 5px red; /* Subtle inner glow for depth */
+    position: relative; /* Enable relative positioning */
+}

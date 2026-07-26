@@ -1,0 +1,36 @@
+.win{
+    background-image: url("../images/clapping_hands.gif");
+    background-color:black;
+    width: 2025px;
+    height: 1017px;
+}
+h1
+{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200px;
+    animation: gameover 1s infinite ease-in-out;
+  
+    position: relative; display: inline-block; 
+}
+@keyframes gameover {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color:black;
+    }
+
+    50% {
+        color: red;
+    }
+
+    75% {
+        color: black;
+    }
+
+    100% {
+        color: red;
+    }
+}

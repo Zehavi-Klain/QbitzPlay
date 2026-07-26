@@ -1,0 +1,197 @@
+body {
+    background-image: url("../images/אבנים מושלםםםםםם.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+#tableContainer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#timerAndPach {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#cardContainer {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td, tr {
+    border: 0.2px solid rgb(173, 7, 7);
+    height: 130px;
+    width: 130px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid red;
+    max-width: 100%;
+}
+
+#dragContainer img {
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+}
+
+#dragContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#cardContainer img {
+    border-radius: 10px;
+    margin-top: 30%;
+    box-shadow: 0 0 8px rgba(199, 10, 10, 0.7), 0 0 15px rgba(255, 0, 81, 0.5), inset 0 0 5px red;
+}
+
+#timer {
+    font-size: 3em;
+    color: darkred;
+    text-align: center;
+}
+
+#trashcan {
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+}
+
+button {
+    animation: pulse 1s infinite;
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background-color: red;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+button:hover {
+    background-color: black;
+    color: red;
+}
+
+.smili {
+    height: 3vw;
+}
+
+#theBest2, #theBest, #pointsDiv {
+    direction: rtl;
+    color: darkred;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    margin: 5px;
+}
+
+#pointsDiv {
+    height: auto;
+}
+
+#pach {
+    width: 100%;
+    text-align: center;
+}
+
+.all {
+    position: relative;
+    width: 100%;
+    background-color: #333;
+    box-shadow: 0 0 8px rgba(234, 243, 102, 0.7), 0 0 15px rgba(0, 255, 255, 0.5), inset 0 0 6px red;
+    padding: 10px;
+}
+
+#rotate {
+    height: 30px;
+    width: 30px;
+    font-size: x-large;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    #container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #tableContainer, #timerAndPach, #cardContainer {
+        width: 100%;
+    }
+
+    td, tr {
+        height: 80px;
+        width: 80px;
+    }
+
+    #dragContainer img {
+        height: 60px;
+        width: 60px;
+    }
+
+    #trashcan {
+        height: 60px;
+        width: 60px;
+    }
+
+    .smili {
+        height: 20px;
+    }
+
+    #timer {
+        font-size: 2em;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    #rotate {
+        margin-left: 0;
+    }
+}
