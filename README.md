@@ -153,6 +153,6 @@ Possible future enhancements include:
 
 Software Developer
 
-GitHub: *([Add your GitHub link here](https://github.com/Zehavi-Klain))*
+GitHub: *([GitHub](https://github.com/Zehavi-Klain))*
 
-Portfolio: *([Add your portfolio link here](https://zehavaklain.onrender.com/))*
+Portfolio: *([portfolio](https://zehavaklain.onrender.com/))*
